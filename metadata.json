@@ -1,0 +1,6 @@
+{
+  "name": "PocketPad",
+  "description": "Turns your phone into a high-precision laptop trackpad with tactile gestures and low-latency companion connection.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

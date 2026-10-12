@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1C1C1E"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </linearGradient>
+    <linearGradient id="cursorGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A84FF"/>
+      <stop offset="100%" stop-color="#007AFF"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#007AFF" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <!-- Continuous Rounded App Icon Base (Apple 22.5% squircle) -->
+  <rect width="512" height="512" rx="115" fill="url(#bgGrad)"/>
+  <rect width="508" height="508" x="2" y="2" rx="113" fill="none" stroke="rgba(255,255,255,0.12)" stroke-width="2"/>
+
+  <!-- Trackpad Subtle Outer Grid Rim -->
+  <rect x="76" y="76" width="360" height="360" rx="48" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="2"/>
+
+  <!-- Apple-Style Precision Cursor Arrow in Accent Blue -->
+  <path d="M192 136 L340 284 L272 296 L312 388 L272 404 L232 312 L192 352 Z" 
+        fill="url(#cursorGrad)" 
+        filter="url(#glow)"/>
+</svg>
